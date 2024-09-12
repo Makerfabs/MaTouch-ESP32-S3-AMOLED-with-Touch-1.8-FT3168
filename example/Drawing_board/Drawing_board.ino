@@ -1,12 +1,3 @@
-/*
- * @Description: GFX屏幕显示示例
- * @version: V1.0.0
- * @Author: LILYGO_L
- * @Date: 2023-09-06 10:58:19
- * @LastEditors: LILYGO_L
- * @LastEditTime: 2024-05-29 10:43:59
- * @License: GPL 3.0
- */
 #include <Arduino.h>
 #include "Arduino_GFX_Library.h"
 #include "Arduino_DriveBus_Library.h"
@@ -35,7 +26,7 @@ void Arduino_IIC_Touch_Interrupt(void)
 void setup()
 {
     USBSerial.begin(115200);
-    USBSerial.println("1.8 test");
+    USBSerial.println("Matouch 1.8 Drawing board demo");
 
     pinMode(LCD_EN, OUTPUT);
     digitalWrite(LCD_EN, HIGH);
@@ -64,7 +55,6 @@ void setup()
     }
     delay(500);
     gfx->fillScreen(WHITE);
-    
 }
 
 void loop()
