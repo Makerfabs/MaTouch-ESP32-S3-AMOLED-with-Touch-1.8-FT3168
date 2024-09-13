@@ -52,7 +52,7 @@ void run_Animation(lv_obj_t * TargetObject, int delay)
     lv_anim_set_deleted_cb(&PropertyAnimation_0, _ui_anim_callback_free_user_data);
     lv_anim_set_playback_time(&PropertyAnimation_0, 0);
     lv_anim_set_playback_delay(&PropertyAnimation_0, 0);
-    lv_anim_set_repeat_count(&PropertyAnimation_0, LV_ANIM_REPEAT_INFINITE);
+    lv_anim_set_repeat_count(&PropertyAnimation_0, 0);
     lv_anim_set_repeat_delay(&PropertyAnimation_0, 500);
     lv_anim_set_early_apply(&PropertyAnimation_0, false);
     lv_anim_start(&PropertyAnimation_0);
@@ -70,7 +70,7 @@ void run_Animation(lv_obj_t * TargetObject, int delay)
     lv_anim_set_deleted_cb(&PropertyAnimation_1, _ui_anim_callback_free_user_data);
     lv_anim_set_playback_time(&PropertyAnimation_1, 0);
     lv_anim_set_playback_delay(&PropertyAnimation_1, 0);
-    lv_anim_set_repeat_count(&PropertyAnimation_1, LV_ANIM_REPEAT_INFINITE);
+    lv_anim_set_repeat_count(&PropertyAnimation_1, 0);
     lv_anim_set_repeat_delay(&PropertyAnimation_1, 500);
     lv_anim_set_early_apply(&PropertyAnimation_1, false);
     lv_anim_start(&PropertyAnimation_1);
