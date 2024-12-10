@@ -20,6 +20,7 @@ Product Link: [MaTouch_ESP32-S3 AMOLED with Touch 1.8 FT3168](https://www.makerf
 
 Wiki Link: [MaTouch_ESP32-S3 AMOLED with Touch 1.8 FT3168](https://wiki.makerfabs.com/MaTouch_ESP32_S3_AMOLED_with_Touch_1.8_FT3168.html)
 
+Video Link: [Matouch ESP32S3 AMOLED 1.8" & LVGL](https://www.youtube.com/watch?v=-4QudXA8VgA)
 
 ## Features
 
