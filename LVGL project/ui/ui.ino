@@ -1,3 +1,14 @@
+/*
+Arduino IDE V2.3.4
+esp32 v2.0.16
+lvgl v8.3.11
+Driver Bus Library v1.0.1
+
+Tools:
+Flash size: 16MB(128Mb)
+Partition Schrme: 16M Flash(3MB APP/9.9MB FATFS)
+PSRAM: OPI PSRAM
+*/
 #include <lvgl.h>
 #include "Arduino_GFX_Library.h"
 #include "Arduino_DriveBus_Library.h"
