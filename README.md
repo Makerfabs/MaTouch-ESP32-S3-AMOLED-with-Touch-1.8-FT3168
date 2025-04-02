@@ -67,3 +67,22 @@ This demo is a temperature and humidity detection system designed by combining S
 This demo is a simple drawing board that allows you to draw your patterns in it.
 
 
+```c++
+/*
+Library version:
+Arduino IDE 2.3.4
+esp32 V2.0.16
+lvgl v8.3.11
+GFX Library for Arduino v1.3.7
+Drive Bus Library v1.0.1
+DHT sensor library v1.4.6
+Adafruit Unified Sensor v1.1.14
+
+Tools:
+USB CDC On Boot: Enabled
+Flash size: 16MB(128Mb)
+Partition Schrme: 16M Flash(3MB APP/9.9MB FATFS)
+PSRAM: OPI PSRAM
+*/
+```
+
