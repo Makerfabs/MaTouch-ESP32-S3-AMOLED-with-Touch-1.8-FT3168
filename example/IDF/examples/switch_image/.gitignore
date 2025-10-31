@@ -1,0 +1,7 @@
+build/
+sdkconfig
+sdkconfig.old
+.venv
+__pycache__/
+managed_components/
+dependencies.lock

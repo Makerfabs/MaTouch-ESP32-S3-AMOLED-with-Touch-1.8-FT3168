@@ -1,0 +1,9 @@
+menu "Board Configuration"
+
+    config BSP_SPIFFS
+        bool "Enable SPIFFS filesystem support"
+        default n
+        help
+            Enable SPIFFS filesystem support
+            
+endmenu
